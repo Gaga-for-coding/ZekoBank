@@ -35,7 +35,6 @@ public class Main {
                 case '6':
                     System.out.println("Good Bye!!!!");
                     break;
-                case '7': break;
                 default:
                     System.out.println("Invalid entry, try again : ");
             }
