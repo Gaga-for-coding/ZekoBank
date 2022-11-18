@@ -36,7 +36,7 @@ public class Main {
                     System.out.println("Good Bye!!!!");
                     break;
                 default:
-                    System.out.println("Invalid entry, try again : ");
+                    System.out.println("Invalid entry, try again ");
             }
         }while (choice != '6');
     }
