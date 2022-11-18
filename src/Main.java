@@ -15,7 +15,6 @@ public class Main {
             System.out.println("4. Withdraw money");
             System.out.println("5. Check account details");
             System.out.println("6. Quit");
-            System.out.println("Bye bye thanks for using Zeko");
             System.out.println();
             System.out.print("Enter choice [1-6]: ");
             choice = EasyScanner.nextChar();
@@ -33,10 +32,10 @@ public class Main {
                 case '5': Gui.button5(zeko);
                     break;
                 case '6':
-                    System.out.println("Good Bye!!!!");
+                    System.out.println("Bye bye thanks for using Zeko");
                     break;
                 default:
-                    System.out.println("Invalid entry, try again : ");
+                    System.out.println("Invalid entry, try again ");
             }
         }while (choice != '6');
     }
