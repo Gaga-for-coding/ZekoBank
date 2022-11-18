@@ -2,11 +2,6 @@ package util;
 import java.util.Scanner;
 
 public class EasyScanner {
-    public static int nextInt()
-    {
-        Scanner keyboard = new Scanner(System.in);
-        return keyboard.nextInt();
-    }
 
     public static double nextDouble()
     {
