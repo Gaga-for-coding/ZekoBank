@@ -70,7 +70,7 @@ public class Gui {
         if(account != null){
             System.out.println("Account number: " + account.getAccountNumber());
             System.out.println("Account name: " +account.getAccountHolderName());
-            System.out.println("Balance: " + account.getBalance());
+            System.out.println("Balance: ghc" + account.getBalance());
             System.out.println();
         } else {
             System.out.println("No such account");
