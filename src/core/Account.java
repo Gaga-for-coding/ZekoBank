@@ -3,7 +3,7 @@ package core;
 public class Account {
     private final String accountNumber;
     private final String accountHolderName;
-    private double balance;
+    protected double balance;
 
     public Account(String accountNumber, String accountHolderName, double balance) {
         this.accountNumber = accountNumber;
